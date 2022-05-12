@@ -3,7 +3,7 @@
 <node TEXT="typescript" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1650996969975" STYLE="oval">
 <font SIZE="72"/>
 <hook NAME="MapStyle">
-    <properties followedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" followedMapLastTime="1647692844000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm"/>
+    <properties followedTemplateLocation="template:/standard-1.6.mm" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1647692844000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -2379,7 +2379,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="такая запись используется когда новое свойство в объект передается с помощью переменной" ID="ID_1292279793" CREATED="1652356233805" MODIFIED="1652356292147">
 <node ID="ID_1759237384" CREATED="1652356293487" MODIFIED="1652358168501" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -2426,7 +2425,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="если использовать точечную запись, получится чушь" ID="ID_771523352" CREATED="1652356506549" MODIFIED="1652356549337">
 <node ID="ID_832284285" CREATED="1652356524643" MODIFIED="1652358172924" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -2479,7 +2477,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2534,7 +2531,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="можно также комбинировать запись через точку и в квадратных скобках" ID="ID_1656648560" CREATED="1652358350069" MODIFIED="1652358376358">
@@ -2585,7 +2581,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2642,7 +2637,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="сокращенная запись" ID="ID_1502824691" CREATED="1652359097896" MODIFIED="1652359105984">
 <node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652359110622"><richcontent TYPE="NODE">
@@ -2677,7 +2671,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2685,7 +2678,9 @@
 </node>
 <node TEXT="метод" ID="ID_1701779646" CREATED="1652359466524" MODIFIED="1652359471261">
 <node TEXT="метод - это свойство объекта, значение которого - функция" ID="ID_1346615925" CREATED="1652359471959" MODIFIED="1652359490419"/>
-<node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918"/>
+<node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918">
+<node TEXT="" ID="ID_1297688912" CREATED="1652360025417" MODIFIED="1652360025417"/>
+</node>
 </node>
 </node>
 </node>
