@@ -1962,7 +1962,7 @@
 <node TEXT="выражения" ID="ID_1958646708" CREATED="1652344220013" MODIFIED="1652344223174">
 <node TEXT="выражение всегда возвращает значение" ID="ID_1838937211" CREATED="1652344251476" MODIFIED="1652344259783"/>
 <node TEXT="примеры" ID="ID_784833854" CREATED="1652344427066" MODIFIED="1652344432156">
-<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652344438344"><richcontent TYPE="NODE">
+<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652361199524" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2062,7 +2062,7 @@
 <node TEXT="просто присваивание, без объявления, объявление было ранее у нас" ID="ID_1228209314" CREATED="1652346390329" MODIFIED="1652346413310"/>
 </node>
 <node TEXT="этапы жизни переменных" ID="ID_219018398" CREATED="1652348733244" MODIFIED="1652348743504">
-<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652348747413"><richcontent TYPE="NODE">
+<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652361197419" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2249,10 +2249,118 @@
 <node TEXT="сам объект менять можно, но присваивать другой объект этой же переменной, введенной с помощью синтаксиса  const, нельзя!" ID="ID_589228528" CREATED="1652355120924" MODIFIED="1652355169488">
 <icon BUILTIN="button_ok"/>
 <node TEXT="с помощью const вводится переменная и после этого менять саму ссылку на объект нельзя, а объект по этой ссылке - можно!" ID="ID_498928942" CREATED="1652355258097" MODIFIED="1652355306119">
-<node TEXT="изменение этого объекта называется мутирование объекта" ID="ID_582570773" CREATED="1652355362320" MODIFIED="1652355376506"/>
+<node TEXT="изменение этого объекта называется мутирование объекта" ID="ID_582570773" CREATED="1652355362320" MODIFIED="1652355376506">
+<node TEXT="как избежать мутации при копировании объекта в другой?" ID="ID_482294574" CREATED="1652362729575" MODIFIED="1652362848646">
+<node ID="ID_435995184" CREATED="1652362932670" MODIFIED="1652363349317" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">city</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Tbilisi'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">23</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc2</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #4ec9b0"><font color="#4ec9b0">Object</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">assign</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">({}, </font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="при этом ссылки на вложенные объекты сохраняются, то есть если есть вложенные объекты, то огребешь при копировании..." ID="ID_113815862" CREATED="1652363076698" MODIFIED="1652363112397"/>
+</node>
+<node ID="ID_445853150" CREATED="1652363244375" MODIFIED="1652363347125" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">city</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Tbilisi'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">23</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc2</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= { ...</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">61</font></span>
+      </div>
+      <br/>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) &nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// { city: 'Tbilisi', age: 61 }</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc2</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// { city: 'Tbilisi', age: 23 }</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="оператор три точки" ID="ID_1166342257" CREATED="1652363248705" MODIFIED="1652363258093">
+<node TEXT="при этом ссылки на вложенные объекты сохраняются, то есть если есть вложенные объекты, то огребешь при копировании..." ID="ID_1490651867" CREATED="1652363076698" MODIFIED="1652363112397"/>
+</node>
+<node TEXT="оператор разделения объекта на свойства" ID="ID_1580029718" CREATED="1652363267956" MODIFIED="1652363277328">
+<node TEXT="сначала разделяется на свойства, потом благодаря тому, что троеточик внутри фигурных скобок, объект снова соберётся." ID="ID_1823409797" CREATED="1652363278371" MODIFIED="1652363316800"/>
+</node>
+</node>
+<node ID="ID_879366585" CREATED="1652363423929" MODIFIED="1652363427300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc2</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">JSON</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">parse</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">JSON</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">stringify</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">loc</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">))</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="решает проблему с вложенными объектами" ID="ID_1005587076" CREATED="1652363430098" MODIFIED="1652363441140"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="пример" ID="ID_1185178843" CREATED="1652358125988" MODIFIED="1652358128133">
-<node ID="ID_1388503628" CREATED="1652355220012" MODIFIED="1652358132511" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1388503628" CREATED="1652355220012" MODIFIED="1652362820920" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2287,6 +2395,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2605,7 +2714,7 @@
 </node>
 </node>
 <node TEXT="заполняем объект свойствами через переменные" ID="ID_1575397798" CREATED="1652358988078" MODIFIED="1652359009378">
-<node ID="ID_708122822" CREATED="1652359010981" MODIFIED="1652359016119"><richcontent TYPE="NODE">
+<node ID="ID_708122822" CREATED="1652359010981" MODIFIED="1652361083636" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2639,7 +2748,7 @@
 </html>
 </richcontent>
 <node TEXT="сокращенная запись" ID="ID_1502824691" CREATED="1652359097896" MODIFIED="1652359105984">
-<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652359110622"><richcontent TYPE="NODE">
+<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652361086723" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2677,8 +2786,170 @@
 </node>
 </node>
 <node TEXT="метод" ID="ID_1701779646" CREATED="1652359466524" MODIFIED="1652359471261">
-<node TEXT="метод - это свойство объекта, значение которого - функция" ID="ID_1346615925" CREATED="1652359471959" MODIFIED="1652359490419"/>
+<node TEXT="метод - это свойство объекта, который содержит функцию" ID="ID_1346615925" CREATED="1652359471959" MODIFIED="1652360649525"/>
 <node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918"/>
+<node TEXT="пример" ID="ID_644728580" CREATED="1652360612493" MODIFIED="1652360617218">
+<node ID="ID_1340649748" CREATED="1652360618278" MODIFIED="1652361088589" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">:</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Greeting'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// Greeting</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="вызов функции производится с помощью скобок здесь =&gt;" ID="ID_980481211" CREATED="1652360702073" MODIFIED="1652360745681">
+<node ID="ID_192693674" CREATED="1652360721461" MODIFIED="1652360725540"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="та же запись, но короче где мы убираем слово функция" ID="ID_14432965" CREATED="1652360885928" MODIFIED="1652360906363">
+<node ID="ID_1622196501" CREATED="1652360909044" MODIFIED="1652361090344" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Greeting'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// Greeting</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="разница между доступом к свойствам объекта и доступ к методам" ID="ID_1690120997" CREATED="1652361007144" MODIFIED="1652361024939">
+<node ID="ID_561600436" CREATED="1652361064637" MODIFIED="1652361073531"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// Greeting</font></span>
+      </div>
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652361093284" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Greeting'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">userGreeting</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// Greeting</font></span>
+      </div>
+      <div>
+        <span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2780,6 +3051,89 @@
 </node>
 <node TEXT="ссылки" ID="ID_1943259529" CREATED="1652345762972" MODIFIED="1652345764891">
 <node TEXT="https://www.youtube.com/watch?v=CxgOKJh4zWE" ID="ID_256950444" CREATED="1652345765527" MODIFIED="1652345766154"/>
+</node>
+<node TEXT="JSON" ID="ID_175517008" CREATED="1652361225286" MODIFIED="1652361231735">
+<node TEXT="javascript object notation" ID="ID_1043915819" CREATED="1652361232439" MODIFIED="1652361250859"/>
+<node TEXT="пример" ID="ID_367648707" CREATED="1652361449440" MODIFIED="1652361453939">
+<node ID="ID_949914661" CREATED="1652361455215" MODIFIED="1652361459688"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">{</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">&quot;userId&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">&quot;user&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">&quot;title&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #ce9178"><font color="#ce9178">&quot;Test title&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">&quot;status&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">&quot;completed&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #569cd6"><font color="#569cd6">false</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="все ключи в двойных кавычках" ID="ID_790396982" CREATED="1652361464975" MODIFIED="1652361474418"/>
+</node>
+</node>
+<node TEXT="конвертация из JSON в объект" ID="ID_1683864196" CREATED="1652361611628" MODIFIED="1652361625755">
+<node TEXT="JSON.parse()" ID="ID_144580305" CREATED="1652361625792" MODIFIED="1652361637365"/>
+</node>
+<node TEXT="конвертация объекта в JSON" ID="ID_594027888" CREATED="1652361640374" MODIFIED="1652361660908">
+<node TEXT="JSON.stringify()" ID="ID_1122312912" CREATED="1652361661952" MODIFIED="1652361678237">
+<node ID="ID_72147865" CREATED="1652361775083" MODIFIED="1652361777616"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">ballast</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">userGreeting</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Greeting'</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">JSON</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">stringify</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">user</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)) </font></span><span style="color: #6a9955"><font color="#6a9955">// {&quot;ballast&quot;:true,&quot;userGreeting&quot;:&quot;Greeting&quot;}</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
