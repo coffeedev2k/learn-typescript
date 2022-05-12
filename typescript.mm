@@ -3,7 +3,7 @@
 <node TEXT="typescript" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1650996969975" STYLE="oval">
 <font SIZE="72"/>
 <hook NAME="MapStyle">
-    <properties followedTemplateLocation="template:/standard-1.6.mm" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1647692844000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm"/>
+    <properties followedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" followedMapLastTime="1647692844000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -2678,9 +2678,7 @@
 </node>
 <node TEXT="метод" ID="ID_1701779646" CREATED="1652359466524" MODIFIED="1652359471261">
 <node TEXT="метод - это свойство объекта, значение которого - функция" ID="ID_1346615925" CREATED="1652359471959" MODIFIED="1652359490419"/>
-<node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918">
-<node TEXT="" ID="ID_1297688912" CREATED="1652360025417" MODIFIED="1652360025417"/>
-</node>
+<node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918"/>
 </node>
 </node>
 </node>
