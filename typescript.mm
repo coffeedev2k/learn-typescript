@@ -1962,7 +1962,7 @@
 <node TEXT="выражения" ID="ID_1958646708" CREATED="1652344220013" MODIFIED="1652344223174">
 <node TEXT="выражение всегда возвращает значение" ID="ID_1838937211" CREATED="1652344251476" MODIFIED="1652344259783"/>
 <node TEXT="примеры" ID="ID_784833854" CREATED="1652344427066" MODIFIED="1652344432156">
-<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652361199524" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652440500855" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1994,6 +1994,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2062,7 +2063,7 @@
 <node TEXT="просто присваивание, без объявления, объявление было ранее у нас" ID="ID_1228209314" CREATED="1652346390329" MODIFIED="1652346413310"/>
 </node>
 <node TEXT="этапы жизни переменных" ID="ID_219018398" CREATED="1652348733244" MODIFIED="1652348743504">
-<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652361197419" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652440648830" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2086,10 +2087,10 @@
         <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// result = 12</font></span>
       </div>
       <br/>
-      
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2124,7 +2125,7 @@
 <node TEXT="содержит ссылку на сам массив или объект{a:true, btr: 123} в памяти" ID="ID_1374855109" CREATED="1652349564576" MODIFIED="1652349593599">
 <node TEXT="на один и тот же объект может быть много ссылок из разных переменных" ID="ID_664902859" CREATED="1652349692807" MODIFIED="1652349711295">
 <node TEXT="если на один объект ссылаются две переменные, меняем одну из них, объект меняется, значение второй переменной тоже изменится" ID="ID_222063272" CREATED="1652349833446" MODIFIED="1652349878617">
-<node ID="ID_1282917858" CREATED="1652350186038" MODIFIED="1652350326101" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1282917858" CREATED="1652350186038" MODIFIED="1652440678991" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2184,11 +2185,12 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="когда неожиданно пример не сработал" ID="ID_1301770698" CREATED="1652350195386" MODIFIED="1652350206628"/>
 <node TEXT="поменять объект не то же самое, что поменять свойства объекта" ID="ID_1941794095" CREATED="1652350748706" MODIFIED="1652350766183"/>
 </node>
-<node ID="ID_1478644236" CREATED="1652350430726" MODIFIED="1652350590227" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1478644236" CREATED="1652350430726" MODIFIED="1652440710710" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2238,6 +2240,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="пример сработал" ID="ID_1575833294" CREATED="1652350437086" MODIFIED="1652350442889"/>
 </node>
@@ -2250,8 +2253,8 @@
 <icon BUILTIN="button_ok"/>
 <node TEXT="с помощью const вводится переменная и после этого менять саму ссылку на объект нельзя, а объект по этой ссылке - можно!" ID="ID_498928942" CREATED="1652355258097" MODIFIED="1652355306119">
 <node TEXT="изменение этого объекта называется мутирование объекта" ID="ID_582570773" CREATED="1652355362320" MODIFIED="1652355376506">
-<node TEXT="как избежать мутации при копировании объекта в другой?" ID="ID_482294574" CREATED="1652362729575" MODIFIED="1652362848646">
-<node ID="ID_435995184" CREATED="1652362932670" MODIFIED="1652363349317" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node TEXT="как копировать объект без связи между ними?" ID="ID_482294574" CREATED="1652362729575" MODIFIED="1652440822608">
+<node ID="ID_435995184" CREATED="1652362932670" MODIFIED="1652440835559" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2284,7 +2287,7 @@
 </richcontent>
 <node TEXT="при этом ссылки на вложенные объекты сохраняются, то есть если есть вложенные объекты, то огребешь при копировании..." ID="ID_113815862" CREATED="1652363076698" MODIFIED="1652363112397"/>
 </node>
-<node ID="ID_445853150" CREATED="1652363244375" MODIFIED="1652363347125" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_445853150" CREATED="1652363244375" MODIFIED="1652440845320" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2338,7 +2341,7 @@
 <node TEXT="сначала разделяется на свойства, потом благодаря тому, что троеточик внутри фигурных скобок, объект снова соберётся." ID="ID_1823409797" CREATED="1652363278371" MODIFIED="1652363316800"/>
 </node>
 </node>
-<node ID="ID_879366585" CREATED="1652363423929" MODIFIED="1652363427300"><richcontent TYPE="NODE">
+<node ID="ID_879366585" CREATED="1652363423929" MODIFIED="1652440858171"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2401,8 +2404,8 @@
 </node>
 </node>
 </node>
-<node TEXT="пример" ID="ID_218221555" CREATED="1652350603729" MODIFIED="1652350605919">
-<node ID="ID_1031179895" CREATED="1652350619255" MODIFIED="1652358147474" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node TEXT="пример" ID="ID_218221555" CREATED="1652350603729" MODIFIED="1652440888531">
+<node ID="ID_1031179895" CREATED="1652350619255" MODIFIED="1652440892372" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2425,6 +2428,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2748,7 +2752,7 @@
 </html>
 </richcontent>
 <node TEXT="сокращенная запись" ID="ID_1502824691" CREATED="1652359097896" MODIFIED="1652359105984">
-<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652361086723" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652440922024" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2780,6 +2784,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2846,7 +2851,7 @@
 </node>
 </node>
 <node TEXT="та же запись, но короче где мы убираем слово функция" ID="ID_14432965" CREATED="1652360885928" MODIFIED="1652360906363">
-<node ID="ID_1622196501" CREATED="1652360909044" MODIFIED="1652361090344" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1622196501" CREATED="1652360909044" MODIFIED="1652440934843" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2907,7 +2912,7 @@
 </html>
 
 </richcontent>
-<node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652361093284" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652440944367" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3055,7 +3060,7 @@
 <node TEXT="JSON" ID="ID_175517008" CREATED="1652361225286" MODIFIED="1652361231735">
 <node TEXT="javascript object notation" ID="ID_1043915819" CREATED="1652361232439" MODIFIED="1652361250859"/>
 <node TEXT="пример" ID="ID_367648707" CREATED="1652361449440" MODIFIED="1652361453939">
-<node ID="ID_949914661" CREATED="1652361455215" MODIFIED="1652361459688"><richcontent TYPE="NODE">
+<node ID="ID_949914661" CREATED="1652361455215" MODIFIED="1652440958166" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3100,7 +3105,7 @@
 </node>
 <node TEXT="конвертация объекта в JSON" ID="ID_594027888" CREATED="1652361640374" MODIFIED="1652361660908">
 <node TEXT="JSON.stringify()" ID="ID_1122312912" CREATED="1652361661952" MODIFIED="1652361678237">
-<node ID="ID_72147865" CREATED="1652361775083" MODIFIED="1652361777616"><richcontent TYPE="NODE">
+<node ID="ID_72147865" CREATED="1652361775083" MODIFIED="1652440960273" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3133,6 +3138,328 @@
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="функции" ID="ID_388945391" CREATED="1652441297759" MODIFIED="1652441304084">
+<node TEXT="пример" ID="ID_1721198552" CREATED="1652441305496" MODIFIED="1652441307159">
+<node ID="ID_1232909839" CREATED="1652441308305" MODIFIED="1652441312889" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">12</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">4</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">sum</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">sum</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;) {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">c</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;+ </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">c</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">} </font></span><span style="color: #6a9955"><font color="#6a9955">// 16</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="тело функции это то, что между фигурных скобок" ID="ID_472679149" CREATED="1652441384355" MODIFIED="1652441395603"/>
+<node TEXT="параметры это то, что в круглых скобках" ID="ID_520726308" CREATED="1652441457983" MODIFIED="1652441467053"/>
+</node>
+</node>
+<node TEXT="функции это переиспользование кода" ID="ID_1371354705" CREATED="1652441315836" MODIFIED="1652441340816"/>
+<node TEXT="функция может быть" ID="ID_1438066919" CREATED="1652441611778" MODIFIED="1652441623193">
+<node TEXT="именованной" ID="ID_609782552" CREATED="1652441623881" MODIFIED="1652441628608"/>
+<node TEXT="анонимной" ID="ID_1245252239" CREATED="1652441629891" MODIFIED="1652441632780"/>
+<node TEXT="присвоена переменной" ID="ID_332637186" CREATED="1652441635661" MODIFIED="1652441641142"/>
+<node TEXT="аргументом при вызове другой функции" ID="ID_1791666374" CREATED="1652441655243" MODIFIED="1652441669081"/>
+<node TEXT="значением свойства объекта" ID="ID_881651699" CREATED="1652441678615" MODIFIED="1652441685848">
+<node TEXT="в этом случае эта функция называется методом" ID="ID_1817987889" CREATED="1652441686569" MODIFIED="1652441698085"/>
+</node>
+</node>
+<node TEXT="функция это объект" ID="ID_1694948861" CREATED="1652441921722" MODIFIED="1652441928285">
+<node ID="ID_1679709054" CREATED="1652442233506" MODIFIED="1652448780297" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">12</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">4</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">myFn</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;) {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">c</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;+ </font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">c</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;+ </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #c586c0"><font color="#c586c0">return</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">c</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">dir</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">myFn</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">// ƒ myFn(a, b )</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// arguments: null</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// caller: null</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// length: 2</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// name: &quot;myFn&quot;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// prototype: {constructor: ƒ}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// [[FunctionLocation]]: VM356:4</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// [[Prototype]]: ƒ ()</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// [[Scopes]]: Scopes[2]</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="в консоли браузера работает, а в вскоде, нет" ID="ID_1040727508" CREATED="1652442242034" MODIFIED="1652442256978"/>
+<node TEXT="myFn имя" ID="ID_617607703" CREATED="1652442327005" MODIFIED="1652442331989"/>
+<node TEXT="a и b - параметры" ID="ID_757740435" CREATED="1652442345513" MODIFIED="1652442357248">
+<node TEXT="значения переменных определяются в момент вызова функции" ID="ID_1167578929" CREATED="1652442372231" MODIFIED="1652442385390"/>
+<node TEXT="опциональны" ID="ID_872995643" CREATED="1652443203355" MODIFIED="1652443206300"/>
+</node>
+<node TEXT="результат функции это то, что возващает return" ID="ID_1833973385" CREATED="1652442436122" MODIFIED="1652442456672">
+<node TEXT="после ключевого слова return функция прекращает свою работу, весь код после return она выполнять не будет" ID="ID_1024171073" CREATED="1652442457388" MODIFIED="1652442493755"/>
+<node TEXT="если нет ключевого слова return, функция вернёт undefined" ID="ID_1267152416" CREATED="1652442516290" MODIFIED="1652442544810"/>
+<node TEXT="return опционален(необязателен)" ID="ID_14476477" CREATED="1652443149245" MODIFIED="1652443168420"/>
+</node>
+<node TEXT="параметры функции это то, что стоит сейчас в скобках в тексте слева" ID="ID_1974546767" CREATED="1652442674020" MODIFIED="1652442758662">
+<node TEXT="всегда одни и те же, независимо от вызовов" ID="ID_961832342" CREATED="1652442805998" MODIFIED="1652442824936"/>
+</node>
+<node TEXT="аргументы функции это то, что стоит в скобках когда мы вызываем функцию, например здесь myFn(13, 177)" ID="ID_484823353" CREATED="1652442746707" MODIFIED="1652442796569">
+<node TEXT="определяются каждый раз при вызове функции, могут быть новыми каждый раз" ID="ID_1721162237" CREATED="1652442827470" MODIFIED="1652442849610"/>
+</node>
+<node TEXT="весь код начиная со строки function и заканчивая закрытием фигурной скобки - это объявление функции" ID="ID_834244690" CREATED="1652442973071" MODIFIED="1652443020771"/>
+</node>
+</node>
+<node TEXT="самая короткая функция" ID="ID_561416579" CREATED="1652447317074" MODIFIED="1652447326443">
+<node ID="ID_1308705188" CREATED="1652447368984" MODIFIED="1652448789365" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">myFn</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">myFn</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="функции передаётся аргумент как ссылка, поэтому функция может мутировать этот объект" ID="ID_957206316" CREATED="1652447789597" MODIFIED="1652447827838">
+<node TEXT="мутирование объектов по ссылке не рекомендуется!" ID="ID_697605376" CREATED="1652447830025" MODIFIED="1652447847743">
+<node TEXT="что же делать?" ID="ID_1741046951" CREATED="1652448042622" MODIFIED="1652448046764">
+<node ID="ID_1746642166" CREATED="1652448570121" MODIFIED="1652448778273" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">originalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">name</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Bob'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">20</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">increaseAge</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">argObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">nonoriginalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;= </font></span><span style="color: #4ec9b0"><font color="#4ec9b0">Object</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">assign</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">({}, </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">argObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #4fc1ff"><font color="#4fc1ff">nonoriginalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;+= </font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #c586c0"><font color="#c586c0">return</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">nonoriginalObject</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">const</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">copyoforiginalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #dcdcaa"><font color="#dcdcaa">increaseAge</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">originalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">originalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// 20</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">copyoforiginalObject</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">age</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// 21</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="1) в функции копировать объект" ID="ID_166449545" CREATED="1652448586870" MODIFIED="1652448598676"/>
+<node TEXT="2) присваивать новому объекту результат работы функции" ID="ID_1954281160" CREATED="1652448600109" MODIFIED="1652448622136"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="колбек функции" ID="ID_1642670026" CREATED="1652448733051" MODIFIED="1652448742274">
+<node TEXT="ситуация, когда мы передаем в качестве аргумента другую функцию и её вызываем в теле первой" ID="ID_925838823" CREATED="1652448742916" MODIFIED="1652448774360"/>
+<node ID="ID_758099322" CREATED="1652449093237" MODIFIED="1652449320194" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">anotherFunction</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">fnWithCallBack</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">callbackFunction</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #dcdcaa"><font color="#dcdcaa">callbackFunction</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// здесь в теле вызывается каллбек функция</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">fnWithCallBack</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">anotherFunction</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// здесь anotherFunction не вызывается, а просто передаётся как аргумент</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_427300780" CREATED="1652449322145" MODIFIED="1652449324563"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Alex'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">setTimeout</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">1000</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// функция printMyName будет вызвана через 1000мс через вызов функции setTimeout</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="правила работы с функциями" ID="ID_1194697791" CREATED="1652449491327" MODIFIED="1652449499601">
+<node TEXT="1) называйте функции исходя из из функциональности" ID="ID_498421928" CREATED="1652449500349" MODIFIED="1652449520762"/>
+<node TEXT="2) одна функция - одна задача" ID="ID_1407343681" CREATED="1652449522563" MODIFIED="1652449534191"/>
+<node TEXT="3) не стоит изменять внешние объекты относительно функции объекты" ID="ID_1522036689" CREATED="1652449536594" MODIFIED="1652449564386"/>
+</node>
+<node TEXT="область видимости" ID="ID_1607408478" CREATED="1652449637568" MODIFIED="1652449641575">
+<node TEXT="область видимости определяет границы действия переменной" ID="ID_1060561147" CREATED="1652449642256" MODIFIED="1652449652546"/>
 </node>
 </node>
 </node>
