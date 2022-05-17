@@ -1994,7 +1994,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2090,7 +2089,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2185,7 +2183,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="когда неожиданно пример не сработал" ID="ID_1301770698" CREATED="1652350195386" MODIFIED="1652350206628"/>
 <node TEXT="поменять объект не то же самое, что поменять свойства объекта" ID="ID_1941794095" CREATED="1652350748706" MODIFIED="1652350766183"/>
@@ -2240,7 +2237,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="пример сработал" ID="ID_1575833294" CREATED="1652350437086" MODIFIED="1652350442889"/>
 </node>
@@ -2283,7 +2279,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="при этом ссылки на вложенные объекты сохраняются, то есть если есть вложенные объекты, то огребешь при копировании..." ID="ID_113815862" CREATED="1652363076698" MODIFIED="1652363112397"/>
 </node>
@@ -2332,7 +2327,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="оператор три точки" ID="ID_1166342257" CREATED="1652363248705" MODIFIED="1652363258093">
 <node TEXT="при этом ссылки на вложенные объекты сохраняются, то есть если есть вложенные объекты, то огребешь при копировании..." ID="ID_1490651867" CREATED="1652363076698" MODIFIED="1652363112397"/>
@@ -2355,7 +2349,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="решает проблему с вложенными объектами" ID="ID_1005587076" CREATED="1652363430098" MODIFIED="1652363441140"/>
 </node>
@@ -2398,7 +2391,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2428,7 +2420,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2603,7 +2594,7 @@
 <node TEXT="порядок свойств в объекте не имеет значения" ID="ID_1173441335" CREATED="1652354616744" MODIFIED="1652354627317"/>
 <node TEXT="объекты могут быть вложенными" ID="ID_1701405793" CREATED="1652357991928" MODIFIED="1652358003169">
 <node TEXT="доступ до вложенных объектов осуществляется через вторую точку и так далее" ID="ID_1538541890" CREATED="1652358004705" MODIFIED="1652358192021">
-<node ID="ID_1171797533" CREATED="1652358013987" MODIFIED="1652358194699" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1171797533" CREATED="1652358013987" MODIFIED="1652691926894" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2784,7 +2775,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2829,7 +2819,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="вызов функции производится с помощью скобок здесь =&gt;" ID="ID_980481211" CREATED="1652360702073" MODIFIED="1652360745681">
 <node ID="ID_192693674" CREATED="1652360721461" MODIFIED="1652360725540"><richcontent TYPE="NODE">
@@ -2846,7 +2835,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2886,7 +2874,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2910,7 +2897,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652440944367" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -2950,7 +2936,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3095,7 +3080,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="все ключи в двойных кавычках" ID="ID_790396982" CREATED="1652361464975" MODIFIED="1652361474418"/>
 </node>
@@ -3134,7 +3118,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3177,7 +3160,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="тело функции это то, что между фигурных скобок" ID="ID_472679149" CREATED="1652441384355" MODIFIED="1652441395603"/>
 <node TEXT="параметры это то, что в круглых скобках" ID="ID_520726308" CREATED="1652441457983" MODIFIED="1652441467053"/>
@@ -3268,7 +3250,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="в консоли браузера работает, а в вскоде, нет" ID="ID_1040727508" CREATED="1652442242034" MODIFIED="1652442256978"/>
 <node TEXT="myFn имя" ID="ID_617607703" CREATED="1652442327005" MODIFIED="1652442331989"/>
@@ -3311,7 +3292,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3378,7 +3358,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="1) в функции копировать объект" ID="ID_166449545" CREATED="1652448586870" MODIFIED="1652448598676"/>
 <node TEXT="2) присваивать новому объекту результат работы функции" ID="ID_1954281160" CREATED="1652448600109" MODIFIED="1652448622136"/>
@@ -3420,7 +3399,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_427300780" CREATED="1652449322145" MODIFIED="1652449324563"><richcontent TYPE="NODE">
@@ -3449,7 +3427,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3468,9 +3445,649 @@
 <node TEXT="создается каждый раз при вызове функции" ID="ID_582295913" CREATED="1652451592480" MODIFIED="1652451604658"/>
 <node TEXT="название функции это также переменная и она создаётся для внешней области видимости, но если она внутри какой-то функции, то будет работать только внутри этой функции подробнее здесь https://youtu.be/CxgOKJh4zWE?t=12267" ID="ID_229652634" CREATED="1652451989253" MODIFIED="1652452056665"/>
 <node TEXT="для поиска переменной внутри внутри внутри области просматриваются последовательно всё более и более внешние области" ID="ID_1169148637" CREATED="1652452819036" MODIFIED="1652452855841"/>
+<node TEXT="типы области видимости" ID="ID_1938798390" CREATED="1652692052541" MODIFIED="1652692060538">
+<node TEXT="глобальная область видимости" ID="ID_1381185479" CREATED="1652692061581" MODIFIED="1652692068125"/>
+<node TEXT="область видимости функции" ID="ID_489656865" CREATED="1652692071206" MODIFIED="1652692077760"/>
+<node TEXT="область видимости блока" ID="ID_760540572" CREATED="1652692081193" MODIFIED="1652692088909">
+<node TEXT="переменные, объявленные через let или const имеют области видимости, ограниченные этим блоком, то есть внутри фигурных скобок" ID="ID_978663907" CREATED="1652692098015" MODIFIED="1652692162847">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node TEXT="https://youtu.be/CxgOKJh4zWE?t=13001" ID="ID_232191634" CREATED="1652455352020" MODIFIED="1652455352727"/>
+</node>
+<node TEXT="если переменной не существует, то при присвоении внутри функции. создастся сразу глобальная переменная" ID="ID_1966649400" CREATED="1652692768522" MODIFIED="1652692810377">
+<node ID="ID_710450176" CREATED="1652692935050" MODIFIED="1652692938214"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Alex'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() </font></span><span style="color: #6a9955"><font color="#6a9955">// Alex</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="так делать не рекомендуется!" ID="ID_630839943" CREATED="1652692948711" MODIFIED="1652692964507">
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="строгий режим" ID="ID_1534090777" CREATED="1652693180404" MODIFIED="1652693184068">
+<node TEXT="синтаксис" ID="ID_414034836" CREATED="1652693184772" MODIFIED="1652693187635">
+<node TEXT="use strict" ID="ID_1930977260" CREATED="1652693188344" MODIFIED="1652693198678">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="запрещает использование необъявленных переменных" ID="ID_5095120" CREATED="1652693200713" MODIFIED="1652693216958">
+<node TEXT="такой код выдаст ошибку" ID="ID_597655942" CREATED="1652693217744" MODIFIED="1652693224298">
+<node ID="ID_1515169705" CREATED="1652693280502" MODIFIED="1652693285398" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #ce9178"><font color="#ce9178">'use strict'</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'Alex'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// ReferenceError: a is not defined</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">printMyName</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="правила работы с переменными" ID="ID_666534714" CREATED="1652693019994" MODIFIED="1652693027943">
+<node TEXT="1. Все переменные объявлять перед их использованием" ID="ID_325186168" CREATED="1652693029383" MODIFIED="1652693046607"/>
+<node TEXT="2. Стараться использовать const везде, где это возможно" ID="ID_363269458" CREATED="1652693048423" MODIFIED="1652693063561"/>
+<node TEXT="3. Внутри функции не изменять глобальные переменные и переменные из внешних областей видимости" ID="ID_425006445" CREATED="1652693065349" MODIFIED="1652693096044"/>
+</node>
+</node>
+</node>
+<node TEXT="операторы" ID="ID_86568145" CREATED="1652693474132" MODIFIED="1652693479087">
+<node TEXT="операторы - это встроенная в язык функция" ID="ID_334764214" CREATED="1652693479744" MODIFIED="1652693493806"/>
+<node TEXT="типы операторов" ID="ID_219626059" CREATED="1652693522409" MODIFIED="1652693526073">
+<node TEXT="арифметичексие" ID="ID_243074701" CREATED="1652693526829" MODIFIED="1652693532001">
+<node TEXT="-" ID="ID_1679941808" CREATED="1652693533203" MODIFIED="1652693535925"/>
+<node TEXT="+" ID="ID_507266020" CREATED="1652693537116" MODIFIED="1652693538017"/>
+<node TEXT="*" ID="ID_242911666" CREATED="1652693539237" MODIFIED="1652693540334"/>
+<node TEXT="/" ID="ID_869313562" CREATED="1652693541549" MODIFIED="1652693545867"/>
+</node>
+<node TEXT="сравнения" ID="ID_1065093655" CREATED="1652693550701" MODIFIED="1652693556095">
+<node TEXT="===" ID="ID_1154964529" CREATED="1652693557029" MODIFIED="1652693578692"/>
+<node TEXT="!==" ID="ID_405328350" CREATED="1652693649965" MODIFIED="1652693652355"/>
+<node TEXT="&lt;=" ID="ID_999635264" CREATED="1652693657055" MODIFIED="1652693658933"/>
+<node TEXT="&gt;=" ID="ID_681165855" CREATED="1652693660134" MODIFIED="1652693663781"/>
+</node>
+<node TEXT="логические" ID="ID_1526326232" CREATED="1652693676756" MODIFIED="1652693683706">
+<node TEXT="!" ID="ID_1265284626" CREATED="1652693684607" MODIFIED="1652693688264">
+<node TEXT="значение &quot;НЕ&quot;" ID="ID_817383237" CREATED="1652707030368" MODIFIED="1652707127036">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="всегда возвращает boolean" ID="ID_1396894412" CREATED="1652707077010" MODIFIED="1652707083580"/>
+<node TEXT="на всяких строках и прочим конвертит в boolean а потом пересчелкивает на протиополжное значение" ID="ID_182452587" CREATED="1652707706991" MODIFIED="1652707737906"/>
+<node TEXT="пример" ID="ID_739180391" CREATED="1652707860666" MODIFIED="1652707865435">
+<node ID="ID_1633246400" CREATED="1652707866100" MODIFIED="1652707873024" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #b5cea8"><font color="#b5cea8">10</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// false</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #ce9178"><font color="#ce9178">'abc'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// false</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #ce9178"><font color="#ce9178">''</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">//true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">//false</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!</font></span><span style="color: #569cd6"><font color="#569cd6">undefined</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">//true</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="двойное использование" ID="ID_985097409" CREATED="1652707878486" MODIFIED="1652707885080">
+<node ID="ID_1683256593" CREATED="1652707943412" MODIFIED="1652708081039" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #b5cea8"><font color="#b5cea8">10</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// false</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #ce9178"><font color="#ce9178">'abc'</font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #ce9178"><font color="#ce9178">''</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp; </font></span><span style="color: #6a9955"><font color="#6a9955">//</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">!!</font></span><span style="color: #569cd6"><font color="#569cd6">undefined</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #6a9955"><font color="#6a9955">// false</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="проверка ложности значения" ID="ID_1063534700" CREATED="1652707983377" MODIFIED="1652707991347"/>
+</node>
+</node>
+<node ID="ID_1228580892" CREATED="1652708061903" MODIFIED="1652708066413"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(!!{}) </font></span><span style="color: #6a9955"><font color="#6a9955">// true</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="пустой объект дает true" ID="ID_831360559" CREATED="1652708068997" MODIFIED="1652708077626"/>
+</node>
+</node>
+<node TEXT="&amp;&amp;" ID="ID_480632396" CREATED="1652693689313" MODIFIED="1652693692691">
+<node TEXT="значение &quot;И&quot;" ID="ID_542173384" CREATED="1652707040573" MODIFIED="1652707130100">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="бинарный" ID="ID_968146805" CREATED="1652706986477" MODIFIED="1652706993306"/>
+<node TEXT="возвращает значение одного из операндов" ID="ID_1451655898" CREATED="1652707089348" MODIFIED="1652707101356"/>
+<node TEXT="вычисление" ID="ID_726908954" CREATED="1652708221567" MODIFIED="1652708224308">
+<node ID="ID_1419144134" CREATED="1652708230863" MODIFIED="1652708234304"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">// &amp;&amp;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">выражение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&amp;&amp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">2</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="если выражение 1 ложно" ID="ID_568645979" CREATED="1652708235915" MODIFIED="1652708240782">
+<node TEXT="1. выражение 2 игнорируется" ID="ID_1946156633" CREATED="1652708253150" MODIFIED="1652708264574"/>
+<node TEXT="2. возвращается выражение 1" ID="ID_442953208" CREATED="1652708266025" MODIFIED="1652708279701"/>
+</node>
+<node TEXT="если выражение 1 истинно, то оцениваем выражение 2" ID="ID_883425630" CREATED="1652708393799" MODIFIED="1652708438199">
+<node TEXT="если выражение 2 ложно, возвращаем ложно" ID="ID_903486378" CREATED="1652708467785" MODIFIED="1652708477663"/>
+<node TEXT="если выражение 2 истинно, возвращаем истинно" ID="ID_898728948" CREATED="1652708467785" MODIFIED="1652708505741"/>
+</node>
+</node>
+</node>
+<node TEXT="для цепочки" ID="ID_27678812" CREATED="1652775748193" MODIFIED="1652775756992">
+<node ID="ID_1467860100" CREATED="1652775757864" MODIFIED="1652775760647"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&amp;&amp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&amp;&amp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">c</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&amp;&amp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">d</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="проверяем всё поочерёдно на ложность и если да, возвращаем" ID="ID_1804188863" CREATED="1652775765422" MODIFIED="1652775793914"/>
+</node>
+</node>
+</node>
+<node TEXT="||" ID="ID_1021762984" CREATED="1652693697642" MODIFIED="1652693699525">
+<node TEXT="значение &quot;ИЛИ&quot;" ID="ID_963138690" CREATED="1652707055529" MODIFIED="1652707132684">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="бинарный" ID="ID_622501168" CREATED="1652706986477" MODIFIED="1652706993306"/>
+<node TEXT="возвращает значение одного из операндов" ID="ID_1292279085" CREATED="1652707089348" MODIFIED="1652707101356"/>
+<node TEXT="вычисление" ID="ID_170567267" CREATED="1652708552012" MODIFIED="1652708558402">
+<node ID="ID_1071731227" CREATED="1652708559230" MODIFIED="1652708562112"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">выражение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;|| </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">2</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="если выражение 1 истинно" ID="ID_275961672" CREATED="1652708235915" MODIFIED="1652708589132">
+<node TEXT="1. выражение 2 игнорируется" ID="ID_1060180059" CREATED="1652708253150" MODIFIED="1652708264574"/>
+<node TEXT="2. возвращается выражение 1" ID="ID_918949791" CREATED="1652708266025" MODIFIED="1652708279701"/>
+</node>
+<node TEXT="если выражение 1 ложно, то оцениваем выражение 2" ID="ID_886416764" CREATED="1652708393799" MODIFIED="1652708608775">
+<node TEXT="если выражение 2 ложно, возвращаем ложно" ID="ID_1172256471" CREATED="1652708467785" MODIFIED="1652708477663"/>
+<node TEXT="если выражение 2 истинно, возвращаем истинно" ID="ID_645864069" CREATED="1652708467785" MODIFIED="1652708505741"/>
+</node>
+</node>
+</node>
+<node TEXT="для цепочки" ID="ID_1128080894" CREATED="1652775748193" MODIFIED="1652775756992">
+<node ID="ID_1583554992" CREATED="1652775757864" MODIFIED="1652775818046"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        a || b || c || d
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="проверяем всё поочерёдно на истинность и если да, возвращаем" ID="ID_1686035290" CREATED="1652775765422" MODIFIED="1652775824537"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="присваивания" ID="ID_1986570712" CREATED="1652693713843" MODIFIED="1652693719789">
+<node TEXT="&apos;=&apos;" ID="ID_204823733" CREATED="1652693728160" MODIFIED="1652693735541">
+<node TEXT="это не сравнение!!!" ID="ID_780128481" CREATED="1652693740319" MODIFIED="1652693747787"/>
+<node TEXT="присваивание позволяет присвоить переменной слева от равно значение, что вычисляется справа, при этом сначала вычисляется выражение справа, в потом идёт присвоение" ID="ID_371868029" CREATED="1652694015593" MODIFIED="1652694077029"/>
+<node TEXT="у оператора присваивания есть два операнда" ID="ID_691047011" CREATED="1652694156017" MODIFIED="1652694166224">
+<node ID="ID_1518383710" CREATED="1652694185690" MODIFIED="1652694188308"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">10</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="a это первый операнд, слева от равно" ID="ID_1388735941" CREATED="1652694190330" MODIFIED="1652694204129">
+<node TEXT="left hand" ID="ID_1611754703" CREATED="1652694230402" MODIFIED="1652694237744"/>
+</node>
+<node TEXT="10 это второй операнд, справа от равно" ID="ID_1840855368" CREATED="1652694205435" MODIFIED="1652694216191">
+<node TEXT="right  hand" ID="ID_102775390" CREATED="1652694238856" MODIFIED="1652694244127"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="этот операнд, если бы мы его представили в виде функции в коде, выглядел бы так:" ID="ID_135579170" CREATED="1652694413994" MODIFIED="1652694438379">
+<node ID="ID_255342597" CREATED="1652694438829" MODIFIED="1652707109630" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;=(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">переменная</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">1.</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">Получение</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">результата</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражения</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">2.</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">Поиск</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">переменной</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">по</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">имени</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">3.</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">Присваивание</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">результата</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражения</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">переменной</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #b5cea8"><font color="#b5cea8">4.</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">Возврат</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">результата</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">выражения</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="текстовые" ID="ID_959888097" CREATED="1652693770761" MODIFIED="1652693775037">
+<node TEXT="typeof" ID="ID_1162756944" CREATED="1652693777481" MODIFIED="1652693789927"/>
+<node TEXT="instanceof" ID="ID_1416129175" CREATED="1652693792684" MODIFIED="1652693796777"/>
+<node TEXT="new" ID="ID_1234602672" CREATED="1652693798196" MODIFIED="1652693800814"/>
+<node TEXT="delete" ID="ID_792577204" CREATED="1652693802298" MODIFIED="1652693804252"/>
+</node>
+<node TEXT="оператор запятая" ID="ID_531112481" CREATED="1652693865384" MODIFIED="1652693871134">
+<node ID="ID_34354884" CREATED="1652693891645" MODIFIED="1652693895187"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="оператор три точки ..." ID="ID_1077482458" CREATED="1652775925438" MODIFIED="1652775932703">
+<node TEXT="оператор разделения на свойства" ID="ID_1714923363" CREATED="1652775934411" MODIFIED="1652775940891"/>
+<node TEXT="пример" ID="ID_689746859" CREATED="1652776063847" MODIFIED="1652776065544">
+<node ID="ID_854315872" CREATED="1652776067463" MODIFIED="1652776070281"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">prop</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">text</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Yes'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">message</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'text you'</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">wideprop</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp;&nbsp;...</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">prop</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">color</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #ce9178"><font color="#ce9178">'Red'</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">wideprop</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">// { text: 'Yes', message: 'text you', color: 'Red' }</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="по количеству операндов" ID="ID_580225886" CREATED="1652694639500" MODIFIED="1652694657787">
+<node TEXT="один" ID="ID_1529772637" CREATED="1652694658574" MODIFIED="1652694660379">
+<node TEXT="унарные операторы" ID="ID_1317882709" CREATED="1652694660964" MODIFIED="1652694669477">
+<node TEXT="пример" ID="ID_1208246452" CREATED="1652694755040" MODIFIED="1652694759140">
+<node ID="ID_227899928" CREATED="1652694760672" MODIFIED="1652707112036" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">++</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">+</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">delete</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">obj</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">typeof</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">new</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #4ec9b0"><font color="#4ec9b0">Object</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="с помощью +a можно конвертировать строку в число" ID="ID_1586917887" CREATED="1652694818135" MODIFIED="1652694835157"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="два" ID="ID_1106498150" CREATED="1652694908144" MODIFIED="1652694909917">
+<node TEXT="бинарные операторы" ID="ID_679261362" CREATED="1652694911085" MODIFIED="1652694918619">
+<node TEXT="пример" ID="ID_1998232330" CREATED="1652694991606" MODIFIED="1652694994418">
+<node ID="ID_147007228" CREATED="1652694995101" MODIFIED="1652707114168" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">5</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;+ </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;+= </font></span><span style="color: #b5cea8"><font color="#b5cea8">5</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;=== </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&amp;&amp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span>
+      </div>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="a === b" ID="ID_1321783010" CREATED="1652695137053" MODIFIED="1652695142074">
+<node TEXT="сравнивает как тип, так и значение" ID="ID_1761313300" CREATED="1652695142837" MODIFIED="1652695151159"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="виды записи операторов" ID="ID_981786588" CREATED="1652706357748" MODIFIED="1652706368406">
+<node TEXT="инфиксная запись операторов" ID="ID_1514710870" CREATED="1652695223481" MODIFIED="1652695230944">
+<node TEXT="это когда оператор между операндами" ID="ID_30223820" CREATED="1652695242177" MODIFIED="1652695253060"/>
+</node>
+<node TEXT="префиксная запись операторов" ID="ID_448490590" CREATED="1652706372063" MODIFIED="1652706380546">
+<node TEXT="пример" ID="ID_509078770" CREATED="1652706467518" MODIFIED="1652706472496">
+<node ID="ID_1789865656" CREATED="1652706473392" MODIFIED="1652707116650" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">++</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">delete</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">obj</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">typeof</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="постфиксная запись" ID="ID_1844883671" CREATED="1652706540484" MODIFIED="1652706548148">
+<node TEXT="пример" ID="ID_1549230584" CREATED="1652706549178" MODIFIED="1652706550983">
+<node ID="ID_27470743" CREATED="1652706572726" MODIFIED="1652707118745" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <br/>
+      
+
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">myFn</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">++</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="приоритетность выполнения операторов" ID="ID_1034800459" CREATED="1652706636906" MODIFIED="1652706651769"/>
+</node>
+<node TEXT="логические значения" ID="ID_52949795" CREATED="1652707192208" MODIFIED="1652707197384">
+<node TEXT="ложные значения" ID="ID_1458176189" CREATED="1652707197780" MODIFIED="1652707202472">
+<node ID="ID_1128356006" CREATED="1652707377742" MODIFIED="1652708083194" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #569cd6"><font color="#569cd6">false</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #ce9178"><font color="#ce9178">''</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #569cd6"><font color="#569cd6">undefined</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;= </font></span><span style="color: #569cd6"><font color="#569cd6">null</font></span>
+      </div>
+      <br/>
+      <br/>
+      
+
+      <div>
+        <span style="color: #4ec9b0"><font color="#4ec9b0">Boolean</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) </font></span><span style="color: #6a9955"><font color="#6a9955">//false</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4ec9b0"><font color="#4ec9b0">Boolean</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">value</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">))</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="пример" ID="ID_1757768549" CREATED="1652707410215" MODIFIED="1652707414875">
+<node TEXT="0 - ложное значение" ID="ID_1831667130" CREATED="1652707415783" MODIFIED="1652707421835"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
