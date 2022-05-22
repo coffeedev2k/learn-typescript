@@ -3,7 +3,7 @@
 <node TEXT="typescript" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1650996969975" STYLE="oval">
 <font SIZE="72"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" background="#f2f2f2" zoom="1.213">
+<hook NAME="MapStyle" background="#f2f2f2" zoom="1.103">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/standard-1.6.mm" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1651315090000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1233,7 +1233,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="здесь мы добавляем функцию которая считает площадь" ID="ID_1599822387" CREATED="1650999687175" MODIFIED="1650999710867"/>
 </node>
@@ -1296,7 +1295,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1349,7 +1347,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="вот так пишем вместо прописывания всех border, borderRadius" ID="ID_1493517101" CREATED="1651000217592" MODIFIED="1651000244438"/>
 </node>
@@ -1965,7 +1962,7 @@
 <node TEXT="выражения" ID="ID_1958646708" CREATED="1652344220013" MODIFIED="1652344223174">
 <node TEXT="выражение всегда возвращает значение" ID="ID_1838937211" CREATED="1652344251476" MODIFIED="1652344259783"/>
 <node TEXT="примеры" ID="ID_784833854" CREATED="1652344427066" MODIFIED="1652344432156">
-<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652785026629" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_706841338" CREATED="1652344434488" MODIFIED="1652965692681" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1997,7 +1994,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2010,8 +2006,10 @@
 <node TEXT="объекты" ID="ID_496025372" CREATED="1652344228738" MODIFIED="1652344239725"/>
 </node>
 <node TEXT="переменные" ID="ID_1676962901" CREATED="1652345427819" MODIFIED="1652345430845">
-<node TEXT="переменные дают возмжоность повторного доступа к значениям" ID="ID_409290909" CREATED="1652345438351" MODIFIED="1652345452008"/>
-<node TEXT="переменная как коробка" ID="ID_241235374" CREATED="1652345537023" MODIFIED="1652345541894"/>
+<node TEXT="переменные дают возможоность повторного доступа к значениям" ID="ID_409290909" CREATED="1652345438351" MODIFIED="1652965713883"/>
+<node TEXT="переменная как коробка" ID="ID_241235374" CREATED="1652345537023" MODIFIED="1652345541894">
+<node TEXT="имеется в виду для примитивных классов" ID="ID_1150219595" CREATED="1652965720529" MODIFIED="1652965735802"/>
+</node>
 <node TEXT="как называть переменные" ID="ID_1367063700" CREATED="1652345632187" MODIFIED="1652345638761">
 <node TEXT="PascalCase" ID="ID_1769315960" CREATED="1652345640100" MODIFIED="1652345648443">
 <node TEXT="типы и классы" ID="ID_127868434" CREATED="1652345653570" MODIFIED="1652345658509"/>
@@ -2027,7 +2025,9 @@
 <node TEXT="объявление переменных" ID="ID_1358025632" CREATED="1652346063096" MODIFIED="1652346071159">
 <node TEXT="как вообще объявляется, синтаксис" ID="ID_1142492340" CREATED="1652346265382" MODIFIED="1652346277406">
 <node TEXT="let" ID="ID_1058660746" CREATED="1652346077804" MODIFIED="1652346081771">
-<node TEXT="появились в ECMAscript6" ID="ID_1791583233" CREATED="1652346098976" MODIFIED="1652346111976"/>
+<node TEXT="появились в ECMAscript6" ID="ID_1791583233" CREATED="1652346098976" MODIFIED="1652346111976">
+<node TEXT="в 2015 году стандарт появился" ID="ID_971256856" CREATED="1652346134856" MODIFIED="1652346145270"/>
+</node>
 </node>
 <node TEXT="const" ID="ID_1002643817" CREATED="1652346086419" MODIFIED="1652346088483">
 <node ID="ID_1776697402" CREATED="1652346117267" MODIFIED="1652346117267"><richcontent TYPE="NODE">
@@ -2066,7 +2066,7 @@
 <node TEXT="просто присваивание, без объявления, объявление было ранее у нас" ID="ID_1228209314" CREATED="1652346390329" MODIFIED="1652346413310"/>
 </node>
 <node TEXT="этапы жизни переменных" ID="ID_219018398" CREATED="1652348733244" MODIFIED="1652348743504">
-<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652787643186" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_581074366" CREATED="1652348744257" MODIFIED="1652965836929" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2097,7 +2097,9 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="тип переменной определяется типом значения" ID="ID_724186219" CREATED="1652349028509" MODIFIED="1652349042538"/>
+<node TEXT="тип переменной определяется типом значения" ID="ID_724186219" CREATED="1652349028509" MODIFIED="1652349042538">
+<node TEXT="это только при первом присваивании, JS позволяет потом присвоить значение из другого типа" ID="ID_751322861" CREATED="1652965846980" MODIFIED="1652965885676"/>
+</node>
 </node>
 <node TEXT="типы" ID="ID_187996950" CREATED="1652349141718" MODIFIED="1652349143874">
 <node TEXT="примитивные типы" ID="ID_310556211" CREATED="1652349156936" MODIFIED="1652349162170">
@@ -2188,7 +2190,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="когда неожиданно пример не сработал" ID="ID_1301770698" CREATED="1652350195386" MODIFIED="1652350206628">
 <node TEXT="не сработал, потому что я в отличие от автора, определял новый объект без ключевого слова const, иначе я бы получил ошибку" ID="ID_474075611" CREATED="1652779172203" MODIFIED="1652779218762"/>
@@ -2245,7 +2246,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="пример сработал" ID="ID_1575833294" CREATED="1652350437086" MODIFIED="1652350442889"/>
 </node>
@@ -2405,30 +2405,31 @@
 </node>
 </node>
 </node>
-<node TEXT="пример" ID="ID_218221555" CREATED="1652350603729" MODIFIED="1652440888531">
-<node ID="ID_1031179895" CREATED="1652350619255" MODIFIED="1652440892372" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node TEXT="пример" ID="ID_218221555" CREATED="1652350603729" MODIFIED="1652965955402">
+<node ID="ID_1031179895" CREATED="1652350619255" MODIFIED="1652965991507"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
-  <body>
+  <body width="100">
     <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
-        <span style="color: #d4d4d4"><font color="#d4d4d4">{</font></span>
+        <font color="#d4d4d4">{</font>
       </div>
       <div>
-        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">a</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #b5cea8"><font color="#b5cea8">12</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">,</font></span>
+        <font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font><font color="#9cdcfe">a:</font><font color="#d4d4d4">&nbsp;</font><font color="#b5cea8">12</font><font color="#d4d4d4">,</font>
       </div>
       <div>
-        <span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">b</font></span><font color="#9cdcfe"><span style="color: #9cdcfe">:</span></font><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">true</font></span>
+        <font color="#d4d4d4">&nbsp;&nbsp;&nbsp; </font><font color="#9cdcfe">b:</font><font color="#d4d4d4">&nbsp;</font><font color="#569cd6">true</font>
       </div>
       <div>
-        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+        <font color="#d4d4d4">}</font>
       </div>
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2454,7 +2455,7 @@
 <node TEXT="называется точечная запись" ID="ID_1568804205" CREATED="1652356556856" MODIFIED="1652356564565"/>
 </node>
 <node TEXT="добавление свойства через квадратные скобки" ID="ID_83653941" CREATED="1652356082210" MODIFIED="1652356101696">
-<node ID="ID_1911225720" CREATED="1652356102820" MODIFIED="1652358163518" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1911225720" CREATED="1652356102820" MODIFIED="1652966010216" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2492,6 +2493,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="такая запись используется когда новое свойство в объект передается с помощью переменной" ID="ID_1292279793" CREATED="1652356233805" MODIFIED="1652356292147">
 <node ID="ID_1759237384" CREATED="1652356293487" MODIFIED="1652358168501" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -2603,7 +2605,7 @@
 <node TEXT="порядок свойств в объекте не имеет значения" ID="ID_1173441335" CREATED="1652354616744" MODIFIED="1652354627317"/>
 <node TEXT="объекты могут быть вложенными" ID="ID_1701405793" CREATED="1652357991928" MODIFIED="1652358003169">
 <node TEXT="доступ до вложенных объектов осуществляется через вторую точку и так далее" ID="ID_1538541890" CREATED="1652358004705" MODIFIED="1652358192021">
-<node ID="ID_1171797533" CREATED="1652358013987" MODIFIED="1652691926894" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1171797533" CREATED="1652358013987" MODIFIED="1652966035025" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2644,10 +2646,11 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="можно также комбинировать запись через точку и в квадратных скобках" ID="ID_1656648560" CREATED="1652358350069" MODIFIED="1652358376358">
-<node ID="ID_904340150" CREATED="1652358377730" MODIFIED="1652358384762" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_904340150" CREATED="1652358377730" MODIFIED="1652966046464" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2694,13 +2697,14 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="удаление свойства" ID="ID_1064597566" CREATED="1652355811706" MODIFIED="1652355819852">
-<node ID="ID_1908796116" CREATED="1652355821090" MODIFIED="1652355823885"><richcontent TYPE="NODE">
+<node ID="ID_1908796116" CREATED="1652355821090" MODIFIED="1652966046629"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2714,11 +2718,12 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 <node TEXT="заполняем объект свойствами через переменные" ID="ID_1575397798" CREATED="1652358988078" MODIFIED="1652359009378">
-<node ID="ID_708122822" CREATED="1652359010981" MODIFIED="1652361083636" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_708122822" CREATED="1652359010981" MODIFIED="1652966055818" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2750,9 +2755,10 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="сокращенная запись" ID="ID_1502824691" CREATED="1652359097896" MODIFIED="1652359105984">
-<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652440922024" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1657322552" CREATED="1652359107500" MODIFIED="1652966058340" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2784,6 +2790,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2791,9 +2798,9 @@
 </node>
 <node TEXT="метод" ID="ID_1701779646" CREATED="1652359466524" MODIFIED="1652359471261">
 <node TEXT="метод - это свойство объекта, который содержит функцию" ID="ID_1346615925" CREATED="1652359471959" MODIFIED="1652360649525"/>
-<node TEXT="вызов метода используется с помощью скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652359579918"/>
+<node TEXT="вызов метода используется с помощью круглых скобок" ID="ID_1979146470" CREATED="1652359569237" MODIFIED="1652966076088"/>
 <node TEXT="пример" ID="ID_644728580" CREATED="1652360612493" MODIFIED="1652360617218">
-<node ID="ID_1340649748" CREATED="1652360618278" MODIFIED="1652361088589" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1340649748" CREATED="1652360618278" MODIFIED="1652966088343" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2828,9 +2835,10 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="вызов функции производится с помощью скобок здесь =&gt;" ID="ID_980481211" CREATED="1652360702073" MODIFIED="1652360745681">
-<node ID="ID_192693674" CREATED="1652360721461" MODIFIED="1652360725540"><richcontent TYPE="NODE">
+<node ID="ID_192693674" CREATED="1652360721461" MODIFIED="1652966090652"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2844,11 +2852,12 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 <node TEXT="та же запись, но короче где мы убираем слово функция" ID="ID_14432965" CREATED="1652360885928" MODIFIED="1652360906363">
-<node ID="ID_1622196501" CREATED="1652360909044" MODIFIED="1652440934843" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1622196501" CREATED="1652360909044" MODIFIED="1652966100774" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2883,6 +2892,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2907,7 +2917,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652440944367" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1002076477" CREATED="1652361076120" MODIFIED="1652966108447" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2945,6 +2955,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2955,7 +2966,7 @@
 </node>
 <node TEXT="динамическая типизация" ID="ID_1628553792" CREATED="1652351954796" MODIFIED="1652351966978">
 <node TEXT="пример факапа" ID="ID_461417871" CREATED="1652351967381" MODIFIED="1652351974111">
-<node ID="ID_585456061" CREATED="1652351975205" MODIFIED="1652358199091" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_585456061" CREATED="1652351975205" MODIFIED="1652966120729" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2981,10 +2992,11 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="можно что угодно чему угодно присваивать и поэтому можно нарваться" ID="ID_374665674" CREATED="1652351980451" MODIFIED="1652351999138"/>
 <node TEXT="можно вот так предотвратить этот факап" ID="ID_924934604" CREATED="1652352084145" MODIFIED="1652352095802">
-<node ID="ID_781878550" CREATED="1652352097392" MODIFIED="1652358200553" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_781878550" CREATED="1652352097392" MODIFIED="1652966129176" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3010,11 +3022,12 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 <node TEXT="а можно еще предотвратить используя стрелочные функции" ID="ID_401736691" CREATED="1652352133637" MODIFIED="1652352145995">
-<node ID="ID_1688211789" CREATED="1652352225004" MODIFIED="1652358202146" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1688211789" CREATED="1652352225004" MODIFIED="1652966143410" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3040,6 +3053,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="рекомендуется использовать такой синтаксис, который называется стрелочные функции, это предотвращает проблемы с переопределением" ID="ID_1313067769" CREATED="1652352286925" MODIFIED="1652352321991"/>
 </node>
@@ -3134,7 +3148,7 @@
 </node>
 <node TEXT="функции" ID="ID_388945391" CREATED="1652441297759" MODIFIED="1652441304084">
 <node TEXT="пример" ID="ID_1721198552" CREATED="1652441305496" MODIFIED="1652441307159">
-<node ID="ID_1232909839" CREATED="1652441308305" MODIFIED="1652441312889" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1232909839" CREATED="1652441308305" MODIFIED="1652966210797" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3169,6 +3183,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="тело функции это то, что между фигурных скобок" ID="ID_472679149" CREATED="1652441384355" MODIFIED="1652441395603"/>
 <node TEXT="параметры это то, что в круглых скобках" ID="ID_520726308" CREATED="1652441457983" MODIFIED="1652441467053"/>
@@ -3185,7 +3200,7 @@
 </node>
 </node>
 <node TEXT="функция это объект" ID="ID_1694948861" CREATED="1652441921722" MODIFIED="1652441928285">
-<node ID="ID_1679709054" CREATED="1652442233506" MODIFIED="1652448780297" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1679709054" CREATED="1652442233506" MODIFIED="1652966238493"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3259,6 +3274,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="в консоли браузера работает, а в вскоде, нет" ID="ID_1040727508" CREATED="1652442242034" MODIFIED="1652442256978"/>
 <node TEXT="myFn имя" ID="ID_617607703" CREATED="1652442327005" MODIFIED="1652442331989"/>
@@ -3464,7 +3480,7 @@
 </node>
 </node>
 <node TEXT="если переменной не существует, то при присвоении внутри функции. создастся сразу глобальная переменная" ID="ID_1966649400" CREATED="1652692768522" MODIFIED="1652692810377">
-<node ID="ID_710450176" CREATED="1652692935050" MODIFIED="1652777139368" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_710450176" CREATED="1652692935050" MODIFIED="1652966326653" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3493,6 +3509,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="так делать не рекомендуется!" ID="ID_630839943" CREATED="1652692948711" MODIFIED="1652692964507">
 <icon BUILTIN="button_cancel"/>
@@ -3506,7 +3523,7 @@
 </node>
 <node TEXT="запрещает использование необъявленных переменных" ID="ID_5095120" CREATED="1652693200713" MODIFIED="1652693216958">
 <node TEXT="такой код выдаст ошибку" ID="ID_597655942" CREATED="1652693217744" MODIFIED="1652693224298">
-<node ID="ID_1515169705" CREATED="1652693280502" MODIFIED="1652693285398" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1515169705" CREATED="1652693280502" MODIFIED="1652966323136" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3538,6 +3555,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -3552,7 +3570,7 @@
 </node>
 <node TEXT="функциональное выражение" ID="ID_582242389" CREATED="1652776966264" MODIFIED="1652776973162">
 <node TEXT="пример" ID="ID_81153446" CREATED="1652777056764" MODIFIED="1652777061099">
-<node ID="ID_1784538330" CREATED="1652777061808" MODIFIED="1652782025225" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1784538330" CREATED="1652777061808" MODIFIED="1652966336889" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3572,6 +3590,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="какая разница с объявленной функцией" ID="ID_1897241105" CREATED="1652777086238" MODIFIED="1652777097049">
 <node ID="ID_761308966" CREATED="1652777098569" MODIFIED="1652782027359" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -3595,7 +3614,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="свойства" ID="ID_199557462" CREATED="1652777245978" MODIFIED="1652777251176">
+<node TEXT="свойства ФУНКЦИИ" ID="ID_199557462" CREATED="1652777245978" MODIFIED="1652966351921">
 <node TEXT="имеет имя" ID="ID_295599395" CREATED="1652777255992" MODIFIED="1652777339336">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -3612,10 +3631,7 @@
 </node>
 </node>
 </node>
-<node TEXT="нет имени" ID="ID_549314046" CREATED="1652777118071" MODIFIED="1652777121714">
-<node TEXT="значит, функциональные выражения всегда анонимные" ID="ID_1463429495" CREATED="1652777166164" MODIFIED="1652777181405"/>
-</node>
-<node TEXT="свойства" ID="ID_450003265" CREATED="1652777245978" MODIFIED="1652777251176">
+<node TEXT="свойства ФУНКЦИОНАЛЬНОГО ВЫРАЖЕНИЯ" ID="ID_450003265" CREATED="1652777245978" MODIFIED="1652966412373">
 <node TEXT="имеет имя" ID="ID_1255865832" CREATED="1652777255992" MODIFIED="1652777325617">
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -3630,10 +3646,13 @@
 <node TEXT="используется наиболее часто" ID="ID_90342890" CREATED="1652777448036" MODIFIED="1652777454389"/>
 </node>
 </node>
+<node TEXT="нет имени" ID="ID_549314046" CREATED="1652777118071" MODIFIED="1652777121714">
+<node TEXT="значит, функциональные выражения всегда анонимные" ID="ID_1463429495" CREATED="1652777166164" MODIFIED="1652777181405"/>
+</node>
 </node>
 </node>
 <node TEXT="присваивание функционального выражения переменной" ID="ID_1926089903" CREATED="1652777559828" MODIFIED="1652777570180">
-<node ID="ID_1434333810" CREATED="1652777665530" MODIFIED="1652778766209" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1434333810" CREATED="1652777665530" MODIFIED="1652966437872" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3659,6 +3678,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="до знака равно - создание переменной идет" ID="ID_1653398359" CREATED="1652777673647" MODIFIED="1652777686653"/>
 <node TEXT="после знака равно - создание функционального выражения для этой переменной" ID="ID_565617992" CREATED="1652777688887" MODIFIED="1652777710698"/>
@@ -3692,7 +3712,7 @@
 </node>
 <node TEXT="стрелочные функции" ID="ID_353817820" CREATED="1652778011086" MODIFIED="1652778016504">
 <node TEXT="пример" ID="ID_1889215337" CREATED="1652778757097" MODIFIED="1652778759117">
-<node ID="ID_56019900" CREATED="1652778759527" MODIFIED="1652783339130" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_56019900" CREATED="1652778759527" MODIFIED="1652966471421" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3780,7 +3800,7 @@
 </node>
 </node>
 <node TEXT="сокращения в стрелочных функциях" ID="ID_1500095905" CREATED="1652779365308" MODIFIED="1652779376520">
-<node ID="ID_1868313651" CREATED="1652779417192" MODIFIED="1652779420592"><richcontent TYPE="NODE">
+<node ID="ID_1868313651" CREATED="1652779417192" MODIFIED="1652966506524"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3794,6 +3814,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="здесь а это не название константы, которой присвоено значение функционального выражения, а параметр стрелочной функции, скобки вокруг которого опущены!!!! - когда параметр один, скобки можно опустить" ID="ID_1497346048" CREATED="1652779503322" MODIFIED="1652779574962">
 <node ID="ID_1023257313" CREATED="1652779576441" MODIFIED="1652782297603" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -3822,7 +3843,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3841,7 +3861,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="если в теле функции только одно выражение, то фигурные скобки опускают, а функция неявно возвращает результат этого выражения" ID="ID_771832231" CREATED="1652780042636" MODIFIED="1652780085315">
 <node TEXT="что значит неявно, то есть возвращает, хотя явно слово return не прописано" ID="ID_1545743364" CREATED="1652780086094" MODIFIED="1652780162343"/>
@@ -3866,7 +3885,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1467541832" CREATED="1652780322926" MODIFIED="1652782315231" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -3888,7 +3906,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3926,13 +3943,12 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="строка &quot;= 1&quot; здесь это значение по умолчанию для multiplier, который используется при втором вызове и получаем результат 9" ID="ID_1057685223" CREATED="1652780833436" MODIFIED="1652780893665"/>
 </node>
 </node>
 <node TEXT="пример2" ID="ID_1128455966" CREATED="1652781811979" MODIFIED="1652781816913">
-<node ID="ID_594900456" CREATED="1652781817779" MODIFIED="1652782472571" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_594900456" CREATED="1652781817779" MODIFIED="1652966599133" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3979,7 +3995,7 @@
 
 </richcontent>
 <node TEXT="вместо синтаксиса с { return blablabla } (это называется явный возврат объекта) мы можем новый синтаксис использовать заменив это на круглые скобки это называется НЕявный возврат объекта)" ID="ID_1486208297" CREATED="1652781881064" MODIFIED="1652782501695">
-<node ID="ID_738191624" CREATED="1652781915216" MODIFIED="1652782001921" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_738191624" CREATED="1652781915216" MODIFIED="1652966604327" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -4061,7 +4077,7 @@
 <node TEXT="-" ID="ID_1679941808" CREATED="1652693533203" MODIFIED="1652693535925"/>
 <node TEXT="+" ID="ID_507266020" CREATED="1652693537116" MODIFIED="1652693538017">
 <node TEXT="конкатенация строк" ID="ID_587406034" CREATED="1652776580114" MODIFIED="1652776587233">
-<node ID="ID_381744913" CREATED="1652776706603" MODIFIED="1652776802601" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_381744913" CREATED="1652776706603" MODIFIED="1653208669761" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -4090,9 +4106,10 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="можно целыми строками фигачить" ID="ID_1196005117" CREATED="1652776784113" MODIFIED="1652776794987">
-<node ID="ID_1777364787" CREATED="1652776796174" MODIFIED="1652776804315" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1777364787" CREATED="1652776796174" MODIFIED="1653208680159" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -4121,6 +4138,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -4429,7 +4447,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4505,7 +4522,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="если уже есть свойство такое, то оно перезапишется" ID="ID_1290586153" CREATED="1652776136204" MODIFIED="1652776151142">
 <node TEXT="как делать, чтобы не перезаписывать?" ID="ID_179254260" CREATED="1652776183039" MODIFIED="1652776191653">
@@ -4556,7 +4572,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="меняем местами и последнее перезаписывает предыдущее" ID="ID_1746645674" CREATED="1652776254768" MODIFIED="1652776269955"/>
 </node>
@@ -4861,7 +4876,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1790835301" CREATED="1652783917562" MODIFIED="1652783920453"><richcontent TYPE="NODE">
@@ -4878,7 +4892,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1243343390" CREATED="1652783928646" MODIFIED="1652792848407" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -4901,7 +4914,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1782585720" CREATED="1652783938929" MODIFIED="1652949565050" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -4924,7 +4936,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4951,7 +4962,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&apos;abc&apos; это выражение, путём добавления ; мы это конвертировали в инструкцию и написали её на отдельной строке" ID="ID_1344058244" CREATED="1652784808788" MODIFIED="1652784866672">
 <node TEXT="никакого смысла она не имеет, ну и фиг с ней" ID="ID_1052458716" CREATED="1652784869290" MODIFIED="1652784879397"/>
@@ -4971,7 +4981,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="a = a + 3 это выражение, прибавив ; и разместив на отдельной строке, мы сделали из нее инструкцию" ID="ID_837377935" CREATED="1652784923287" MODIFIED="1652784955527">
 <node TEXT="конвертировали выражение в инструкцию добавлением точки с запятой" ID="ID_1434409387" CREATED="1652791287555" MODIFIED="1652791304652"/>
@@ -5018,7 +5027,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="последние два примера это попытка запихнуть инструкцию в функцию" ID="ID_1906438829" CREATED="1652791525351" MODIFIED="1652791550460"/>
 </node>
@@ -5079,7 +5087,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="так как цифровые свойства, обращаться к ним невозможно через точку, только через квадратные скобки" ID="ID_237076036" CREATED="1652867772489" MODIFIED="1652867879626">
@@ -5103,7 +5110,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="error" ID="ID_921368527" CREATED="1652867929155" MODIFIED="1652867930653">
@@ -5121,7 +5127,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5148,7 +5153,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_861775199" CREATED="1652791994031" MODIFIED="1652792837314" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -5171,7 +5175,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5187,7 +5190,7 @@
 <node TEXT="в вызове forEach передается функция" ID="ID_1353922112" CREATED="1652868531952" MODIFIED="1652868545231"/>
 <node TEXT="для каждого элемента массива будет вызываться эта функция" ID="ID_1077330723" CREATED="1652868569799" MODIFIED="1652868588716"/>
 <node TEXT="пример" ID="ID_115922014" CREATED="1652868709475" MODIFIED="1652868713360">
-<node ID="ID_1836488315" CREATED="1652868714111" MODIFIED="1652870135715" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1836488315" CREATED="1652868714111" MODIFIED="1652966677173" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5223,7 +5226,7 @@
 <node TEXT="этот метод НЕ меняет оригинальный массив" ID="ID_1697143457" CREATED="1652868810082" MODIFIED="1652868821481"/>
 <node TEXT="метод forEach возвращает undefined" ID="ID_1630520430" CREATED="1652869001684" MODIFIED="1652869012211"/>
 <node TEXT="мы также можем получить доступ к переменной index по которой считает метод forEach" ID="ID_1433290934" CREATED="1652878741441" MODIFIED="1652878768188">
-<node ID="ID_1701637562" CREATED="1652878769531" MODIFIED="1652878774060" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
+<node ID="ID_1701637562" CREATED="1652878769531" MODIFIED="1652966682080" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5313,7 +5316,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="перебор по ключам" ID="ID_864899283" CREATED="1652879450016" MODIFIED="1652879454601"/>
 </node>
@@ -5367,7 +5369,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="перебор по значениям" ID="ID_1891736089" CREATED="1652879456227" MODIFIED="1652879460893"/>
 </node>
@@ -5401,7 +5402,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5461,7 +5461,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="здесь name, hasSighnedAgreement, commentsQty - имена новых переменных, которые будут объявлены !!!" ID="ID_1013864926" CREATED="1652870235080" MODIFIED="1652870282092"/>
 <node TEXT="исходный объект НЕ меняет!!!" ID="ID_1626873155" CREATED="1652870402905" MODIFIED="1652870413680">
@@ -5500,7 +5499,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5543,7 +5541,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5578,7 +5575,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="можем первый отщепить" ID="ID_838676903" CREATED="1652870741596" MODIFIED="1652870751225"/>
 </node>
@@ -5644,7 +5640,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="делаем то же самое, что и в записи" ID="ID_1730666374" CREATED="1652876883881" MODIFIED="1652876893569">
 <node ID="ID_409032401" CREATED="1652876894260" MODIFIED="1652876916923" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
@@ -5706,7 +5701,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="но при этом бережём аж целую строчку кода, офигеть!!!" ID="ID_1003203268" CREATED="1652876900380" MODIFIED="1652876914830"/>
 </node>
@@ -5738,7 +5732,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="зарезервированное слово if" ID="ID_1774240532" CREATED="1652876037413" MODIFIED="1652876045110"/>
 <node TEXT="блок инструкций в фигурных скобках" ID="ID_1125530743" CREATED="1652876049009" MODIFIED="1652876061721"/>
@@ -5777,7 +5770,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="пример с отрицанием" ID="ID_990430766" CREATED="1652876449683" MODIFIED="1652876454685">
@@ -5813,7 +5805,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5872,7 +5863,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5915,7 +5905,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="предпочтительный формат при записи многих условий" ID="ID_995210030" CREATED="1652877340781" MODIFIED="1652877352453"/>
 </node>
@@ -5948,7 +5937,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5971,7 +5959,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5996,7 +5983,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1302706621" CREATED="1652878221478" MODIFIED="1652878239358" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -6024,7 +6010,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="другая схема записи" ID="ID_1145540263" CREATED="1652878226729" MODIFIED="1652878236160"/>
 </node>
@@ -6069,7 +6054,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6127,7 +6111,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6166,7 +6149,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6194,7 +6176,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="название переменных может не совпадать, если у нас экпорт дефолта" ID="ID_751353830" CREATED="1652953382423" MODIFIED="1652953415869"/>
 </node>
@@ -6206,7 +6187,7 @@
 <node TEXT="пример, что работает у меня" ID="ID_577241202" CREATED="1652954275872" MODIFIED="1652954280583">
 <node TEXT="экспорт с дефолтом" ID="ID_1924912439" CREATED="1652954520696" MODIFIED="1652954530153">
 <node TEXT="moduleOne.mjs" ID="ID_1410598305" CREATED="1652954282608" MODIFIED="1652954295389">
-<node ID="ID_1855318163" CREATED="1652954296407" MODIFIED="1652954307788"><richcontent TYPE="NODE">
+<node ID="ID_1855318163" CREATED="1652954296407" MODIFIED="1652966818874"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6224,7 +6205,6 @@
         <span style="color: #c586c0"><font color="#c586c0">export</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #c586c0"><font color="#c586c0">default</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">sum</font></span>
       </div>
       <br/>
-      
     </div>
   </body>
 </html>
@@ -6233,7 +6213,7 @@
 </node>
 </node>
 <node TEXT="moduleTwo.mjs" ID="ID_174658914" CREATED="1652954311613" MODIFIED="1652954316575">
-<node ID="ID_1409699875" CREATED="1652954328174" MODIFIED="1652954330872"><richcontent TYPE="NODE">
+<node ID="ID_1409699875" CREATED="1652954328174" MODIFIED="1652966821209"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6259,14 +6239,13 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="экспорт без дефолта" ID="ID_813167564" CREATED="1652954536187" MODIFIED="1652954542072">
 <node TEXT="moduleOne.mjs" ID="ID_1067901261" CREATED="1652954282608" MODIFIED="1652954295389">
-<node ID="ID_633914988" CREATED="1652954557718" MODIFIED="1652954561001"><richcontent TYPE="NODE">
+<node ID="ID_633914988" CREATED="1652954557718" MODIFIED="1652966822646"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6288,7 +6267,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="также можно делать с двумя переменными {sum, diff}" ID="ID_201470642" CREATED="1652954591678" MODIFIED="1652954613662">
 <node TEXT="похож на синтаксис в объектах" ID="ID_598832614" CREATED="1652954623288" MODIFIED="1652954634199"/>
@@ -6297,7 +6275,7 @@
 </node>
 </node>
 <node TEXT="moduleTwo.mjs" ID="ID_1489664681" CREATED="1652954311613" MODIFIED="1652954316575">
-<node ID="ID_1971265991" CREATED="1652954568111" MODIFIED="1652954572232"><richcontent TYPE="NODE">
+<node ID="ID_1971265991" CREATED="1652954568111" MODIFIED="1652966824284"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6323,14 +6301,13 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="экспорт двух переменных с переименованием" ID="ID_434424930" CREATED="1652954901630" MODIFIED="1652954913796">
 <node TEXT="moduleOne.mjs" ID="ID_1494854582" CREATED="1652954282608" MODIFIED="1652954295389">
-<node ID="ID_1545830895" CREATED="1652954927219" MODIFIED="1652954929871"><richcontent TYPE="NODE">
+<node ID="ID_1545830895" CREATED="1652954927219" MODIFIED="1652966827047"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6358,12 +6335,11 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="moduleTwo.mjs" ID="ID_1267223776" CREATED="1652954311613" MODIFIED="1652954316575">
-<node ID="ID_1779141121" CREATED="1652954938279" MODIFIED="1652954941323"><richcontent TYPE="NODE">
+<node ID="ID_1779141121" CREATED="1652954938279" MODIFIED="1652966830046"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6389,7 +6365,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6413,7 +6388,7 @@
 <node TEXT="класс - это шаблон для создания ЭКЗЕМПЛЯРА этого класса" ID="ID_1086706597" CREATED="1652955906024" MODIFIED="1652955928054"/>
 <node TEXT="Pascal - case notation(первая буква в названии класса заглавная)" ID="ID_957387892" CREATED="1652955951503" MODIFIED="1652955976060"/>
 <node TEXT="пример" ID="ID_1048632085" CREATED="1652956108200" MODIFIED="1652956111819">
-<node ID="ID_1777507074" CREATED="1652956113265" MODIFIED="1652956154017"><richcontent TYPE="NODE">
+<node ID="ID_1777507074" CREATED="1652956113265" MODIFIED="1652966789913" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6454,7 +6429,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="два метода constructor и upvote" ID="ID_1584680049" CREATED="1652956140111" MODIFIED="1652956159869">
 <node TEXT="constructor вызывается только один раз, когда вы создаёте новый экземпляр этого класса" ID="ID_416440428" CREATED="1652956332238" MODIFIED="1652956360545"/>
@@ -6479,9 +6453,8 @@
     </div>
   </body>
 </html>
-
 </richcontent>
-<node ID="ID_400712270" CREATED="1652957574854" MODIFIED="1652958411485"><richcontent TYPE="NODE">
+<node ID="ID_400712270" CREATED="1652957574854" MODIFIED="1652966773263" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6600,7 +6573,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="собственные свойства объекта" ID="ID_1243989201" CREATED="1652957597891" MODIFIED="1652957666914">
 <node TEXT="text" ID="ID_1761307382" CREATED="1652957667250" MODIFIED="1652957673402"/>
@@ -6637,10 +6609,9 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node ID="ID_690314385" CREATED="1652963480408" MODIFIED="1652963483048"><richcontent TYPE="NODE">
+<node ID="ID_690314385" CREATED="1652963480408" MODIFIED="1652966779810" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6701,13 +6672,12 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="проверка принадлежности экземпляра к классу" ID="ID_1878341677" CREATED="1652958659429" MODIFIED="1652958681172">
-<node ID="ID_1158010477" CREATED="1652958682513" MODIFIED="1652958685736"><richcontent TYPE="NODE">
+<node ID="ID_1158010477" CREATED="1652958682513" MODIFIED="1652966781535" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6724,12 +6694,11 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="проверка принадлежности свойства экземпляра объекту" ID="ID_424892730" CREATED="1652960006627" MODIFIED="1652960035313">
-<node ID="ID_802029517" CREATED="1652960193844" MODIFIED="1652960211383"><richcontent TYPE="NODE">
+<node ID="ID_802029517" CREATED="1652960193844" MODIFIED="1652966783074" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6752,7 +6721,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6765,7 +6733,7 @@
 </node>
 </node>
 <node TEXT="вызов метода у экземпляра" ID="ID_1661770934" CREATED="1652958829051" MODIFIED="1652958840657">
-<node ID="ID_415001702" CREATED="1652958841699" MODIFIED="1652958845236"><richcontent TYPE="NODE">
+<node ID="ID_415001702" CREATED="1652958841699" MODIFIED="1652966791681" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6788,7 +6756,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="методы можно вызывать многократно" ID="ID_721833680" CREATED="1652959067282" MODIFIED="1652959077798"/>
 </node>
@@ -6800,7 +6767,7 @@
 </node>
 <node TEXT="расширение других классов" ID="ID_1797512125" CREATED="1652962227327" MODIFIED="1652962233402">
 <node TEXT="пример" ID="ID_1809010312" CREATED="1652962544592" MODIFIED="1652962548750">
-<node ID="ID_1302393231" CREATED="1652962549629" MODIFIED="1652962571875"><richcontent TYPE="NODE">
+<node ID="ID_1302393231" CREATED="1652962549629" MODIFIED="1652966838133" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
 <html>
   <head>
